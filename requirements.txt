@@ -1,0 +1,7 @@
+Module dependencies (installable via pip):
+beautifulsoup4==4.5.1
+requests==2.10.0
+argparse==1.4.0
+XlsxWriter==0.9.6
+jxmlease
+json

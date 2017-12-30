@@ -14,7 +14,7 @@ Install the dependencies via pip:
 
 <pre> pip install -r requirements.txt </pre>
 
-# Use
+# Usage
 
 <pre>
 python cmssc4n.py -h

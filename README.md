@@ -8,6 +8,8 @@
 
 You can download the latest version of CMSmap by cloning the GitHub repository:
 
+<pre> git clone https://github.com/n4xh4ck5/CMSsc4n.git </pre>
+
 Install the dependencies via pip:
 
 <pre> pip install -r requirements.txt </pre>

@@ -30,3 +30,13 @@ optional arguments:
   -i INPUT, --input INPUT
                         Input in txt o json with the domains which it wants to analyze
 </pre>
+
+# Author
+
+Ignacio Brihuega Rodríguez aaka n4xh4ck5
+Twitter: @Nachoo_91
+Web:fwhibbit.es
+
+# Disclamer
+
+The use of this tool is your responsability. I hereby disclaim any responsibility for actions taken with this tool.

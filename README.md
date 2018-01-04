@@ -2,7 +2,7 @@
 
  Tool to identify if a domain has got a CMS and determine his version.
  
- At the moment, CMSs supported by CMSsc4n are WordPress,Moodle,Joomla,Drupal and Prestashop.
+ At the moment, CMS's supported by CMSsc4n are WordPress,Moodle,Joomla,Drupal and Prestashop.
  
  # Instalation
 

@@ -8,7 +8,6 @@ from modules.send_request import *
 
 def get_drupal_lastversion ():
 	"""FUNCTION get_drupal_lastversion"""
-	text = ""
 	try:
 		global DRUPAL_LAST_CMS_VERSION
 		url='https://www.drupal.org/project/drupal/releases/'

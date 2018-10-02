@@ -14,13 +14,8 @@ def get_drupal_lastversion ():
 		url='https://www.drupal.org/download'
 		response = requests.get(url, allow_redirects=False, timeout=5,verify=False)
 		soup = BeautifulSoup(response.text, "html.parser")
-		lista=[]
-		for i in soup.findAll(attrs={"class":"primary-button"}):
-			lista.append(''.join(i.findAll(text=True)))
-		for x in lista: 
-			if 'Drupal' in x:
-				text= x.split(' ')
-		DRUPAL_LAST_CMS_VERSION = text[2]
+		var = soup.findAll('h2')[1].find('a').text.replace('drupal','')
+		DRUPAL_LAST_CMS_VERSION = var
 		
 	except Exception as e:
 		print e

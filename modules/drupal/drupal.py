@@ -11,7 +11,7 @@ def get_drupal_lastversion ():
 	text = ""
 	try:
 		global DRUPAL_LAST_CMS_VERSION
-		url='https://www.drupal.org/download'
+		url='https://www.drupal.org/project/drupal/releases/'
 		response = requests.get(url, allow_redirects=False, timeout=5,verify=False)
 		soup = BeautifulSoup(response.text, "html.parser")
 		var = soup.findAll('h2')[1].find('a').text.replace('drupal','')
